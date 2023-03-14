@@ -1,8 +1,9 @@
 .table {
+  font-family: "Poppins";
     .cellWrapper {
       display: flex;
       align-items: center;
-      font-family: "Poppins";
+      
   
       .image {
         width: 32px;
@@ -22,7 +23,7 @@
         background-color: rgba(0, 128, 0, 0.151);
       }
       &.Pending {
-        color: goldenrod;
+        color: red;
         background-color: rgba(189, 189, 3, 0.103);
       }
     }
